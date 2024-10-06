@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:slnt,wght@-2,600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nova+Square&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(245, 215, 250);
+    padding: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  footer{
+    text-align: center;
+
+  }
+
+  .container{
+
+    font-family: "Afacad Flux", system-ui;
+     /* font-size: 50px; */
+     min-height: 100vh;
+     background-color: rgb(255, 255, 255);
+     max-width: 80vw;
+     margin: auto;
+  }
+
+  nav ul li{
+    list-style: none;
+    /* Giving Margin on X axis */
+    margin: 10px 23px;
+    font-size: 25px;
+  }
+
+  nav ul{
+    display: flex;
+  }
+
+  nav div{
+    font-size: 30px;
+  }
+
+  div.logo{
+    text-align: center;
+    align-items: center;
+    justify-content:center ;
+    display: flex;
+    margin: 0 23px;
+  }
+
+  nav li a{
+    text-decoration: none;
+    color: rgb(14, 0, 17);
+    transition-duration: 300ms;
+  }
+
+  nav li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .container h1,h2{
+    text-align: left;
+  }
+
+  .container form input[type = "number"], select{
+    font-size: 20px;
+    padding: auto;
+    margin-bottom: 20px;
+    width: 20vw;
+  }
+  .container form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container label{
+    font-size: 25px;
+  }
+
+
+  .btn{
+    padding: 5px 3px;
+    font-size: 20px;
+    width: 144px;
+    background-color: rgb(245 215 250);
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 200;
+    font-style: bold;
+  }
+
+  nav div {
+    font-weight: 800;
+  }
+
+  .output table{
+    display: none;
+    width: 50vw;
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    font-size: 15px;
+  }

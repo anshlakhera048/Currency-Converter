@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency converter</title>
+  <link rel = "stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Nova+Square&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:slnt,wght@-2,600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nova+Square&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <nav>
+      <div class = "logo">MyCurrencyConverter</div>
+      <ul>
+        <li><a href = "/home">Home</a></li>
+        <li><a href = "/contact">Contact</a></li>
+        <li><a href = "/help">Help</a></li>
+        <li><a href = "/about">About Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      
+        <h1>Enter your Currency to Convert</h1>
+        <form action="/action.php" method="get">
+          <label for="Currency">Choose a Currency :</label>
+          <select name="Currency">
+            <option value="INR">Indian national rupees</option>
+            <option value="USD">US Dollars</option>
+            <option value="DIN">Dubai Dinar</option>
+            <option value="YEN">Japan</option>
+            <!-- <option value="INR">Indian national rupees</option> -->
+          </select>
+
+          <label for="quantity">Choose a quantity :</label>
+          <input type="number" name="quantity" min="1" max="20">
+          <button type="submit" class="btn">Submit</button>
+        </form>
+
+     
+
+    <div class="output"> 
+      <h2> Here is your converted cureiencies :</h2>
+      <table>
+        <thead>
+            <tr>
+                <th>Currency</th>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data1</td>
+                <td>Data2</td>
+                <td>Data3</td>
+            </tr>
+            <tr>
+                <td>Data1</td>
+                <td>Data2</td>
+                <td>Data3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>&nbsp;</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+        </tfoot>
+      </table>
+    </div>
+
+  </div>
+
+    <footer>
+      All &copy; rights reserved
+    </footer>
+
+</body>
+</html>
